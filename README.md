@@ -43,19 +43,13 @@ Siga as etapas abaixo para configurar e executar o projeto:
     php artisan migrate
     ```
 
-5.  **Execute as migrações do banco de dados:**
-
-    ```bash
-    php artisan migrate
-    ```
-
-6.  **Execute as Seeders:**
+5.  **Execute as Seeders:**
 
     ```bash
     php artisan db:seed
     ```
 
-7.  **Inicie o servidor de desenvolvimento:**
+6.  **Inicie o servidor de desenvolvimento:**
 
     ```bash
     php artisan serve
@@ -63,7 +57,7 @@ Siga as etapas abaixo para configurar e executar o projeto:
 
     O servidor de desenvolvimento será executado em http://localhost:8000.
 
-8.  **Acesse a aplicação no navegador:**
+7.  **Acesse a aplicação no navegador:**
 
     Abra seu navegador e acesse http://localhost:8000. Você verá a página inicial da aplicação.
 
