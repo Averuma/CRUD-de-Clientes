@@ -23,7 +23,7 @@ Siga as etapas abaixo para configurar e executar o projeto:
     cd nome-do-diretório
     ```
 
-2.**Crie o arquivo .env:**
+2.  **Crie o arquivo .env:**
 
     Copie o arquivo .env.example para .env e configure as informações de conexão com o banco de dados.
 
@@ -31,7 +31,7 @@ Siga as etapas abaixo para configurar e executar o projeto:
     cp .env.example .env
     ```
 
-3.**Instale as dependências do Laravel:**
+3.  **Instale as dependências do Laravel:**
 
     ```bash
     composer install
@@ -43,19 +43,19 @@ Siga as etapas abaixo para configurar e executar o projeto:
     php artisan migrate
     ```
 
-5.**Execute as migrações do banco de dados:**
+5.  **Execute as migrações do banco de dados:**
 
     ```bash
     php artisan migrate
     ```
 
-6.**Execute as Seeders:**
+6.  **Execute as Seeders:**
 
     ```bash
     php artisan db:seed
     ```
 
-5.  **Inicie o servidor de desenvolvimento:**
+7.  **Inicie o servidor de desenvolvimento:**
 
     ```bash
     php artisan serve
@@ -63,7 +63,7 @@ Siga as etapas abaixo para configurar e executar o projeto:
 
     O servidor de desenvolvimento será executado em http://localhost:8000.
 
-6.  **Acesse a aplicação no navegador:**
+8.  **Acesse a aplicação no navegador:**
 
     Abra seu navegador e acesse http://localhost:8000. Você verá a página inicial da aplicação.
 
